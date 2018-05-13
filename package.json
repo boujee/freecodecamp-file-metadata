@@ -1,0 +1,20 @@
+{
+  "name": "freecodecamp-file-metadata",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "babel-node lib/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "4.*",
+    "babel-cli": "6.*",
+    "babel-preset-env": "1.*",
+    "multer": "1.*"
+  },
+  "devDependencies": {
+    "supertest": "3.*",
+    "jest": "22.*",
+    "babel-jest": "22.*"
+  }
+}
